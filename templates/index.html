@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <title>WiLight</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="page-header">
+                <h1>WiLight</h1>
+            </div>
+
+            <form action="/data" method="post">
+
+            {% for i in range(3) %}
+                <p style="font-size:18px; font-family:verdana;">LED {{ i + 1 }}:
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <i><button class="btn btn-primary" name=led value="b{{i + 1}}on" type="submit" style="background-color: #4CAF50;">ON</button>
+                &nbsp; &nbsp;
+                <button class="btn btn-primary" name="led" value="b{{i + 1}}off" type="submit" style="background-color: #f44336;">OFF</button>
+                </i>
+                </p>
+            {% endfor %}
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
+
+
+
+
