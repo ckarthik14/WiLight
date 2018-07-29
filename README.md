@@ -15,4 +15,4 @@
 3. Blink Away!
 
 # Youtube
-You can watch the demonstration on this [link]("https://www.youtube.com/watch?v=EdyJZmucjqU&feature=youtu.be").
+You can watch the demonstration on this [link](https://www.youtube.com/watch?v=EdyJZmucjqU&feature=youtu.be).
