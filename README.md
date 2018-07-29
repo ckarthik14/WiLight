@@ -9,5 +9,6 @@
 # Running the Web Server
 1. Run the Web App on your computer by redirecting to the project and entering:
 `flask run`
+
 2. Start run.py.
 3. Blink Away!
